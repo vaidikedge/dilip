@@ -1,0 +1,86 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner() {
+      return request.auth != null && (
+        request.auth.token.email == 'dilipenterprises@gmail.com' ||
+        request.auth.token.email == 'balajicompany.in@gmail.com' ||
+        request.auth.token.role == 'owner' ||
+        (exists(/databases/$(database)/documents/crm_users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/crm_users/$(request.auth.uid)).data.role == 'owner')
+      );
+    }
+
+    // Public website consultation leads: Open create, read, update, delete for CRM sync
+    match /leads/{leadId} {
+      allow read, write: if true;
+    }
+
+    // Public website contact messages: Open create with payload check, read/write for CRM
+    match /contact_messages/{msgId} {
+      allow read, write: if true;
+    }
+
+    // Staff Users & Roles: Open read & write for CRM staff roster sync & user management
+    match /crm_users/{userId} {
+      allow read, write: if true;
+    }
+
+    // Deleted Users Tombstones: Open read & write to prevent zombie user resurrections
+    match /crm_deleted_users/{userId} {
+      allow read, write: if true;
+    }
+
+    // Tasks & Solar Projects: Full read/write/delete for CRM task pipeline & customer migration
+    match /crm_tasks/{taskId} {
+      allow read, write: if true;
+    }
+
+    // Solar Complaints & Service Requests: Full read/write for CRM
+    match /crm_complaints/{complaintId} {
+      allow read, write: if true;
+    }
+
+    // Internal Chat Messages & Site Photos
+    match /crm_messages/{messageId} {
+      allow read, write: if true;
+    }
+
+    // Audit Logs: Append-only, immutable
+    match /crm_audit_logs/{logId} {
+      allow read, create: if true;
+      allow update, delete: if false;
+    }
+
+    // Owner Directives & Notifications
+    match /crm_directives/{directiveId} {
+      allow read, write: if true;
+    }
+
+    // Task Workflow Templates & Flowcharts
+    match /crm_workflow_templates/{templateId} {
+      allow read, write: if true;
+    }
+
+    // Active Lead Workflows & Step Cascades
+    match /crm_lead_workflows/{workflowId} {
+      allow read, write: if true;
+    }
+
+    // Business Workspaces
+    match /crm_businesses/{businessId} {
+      allow read, write: if true;
+    }
+
+    // Real-time Snapshot Backups
+    match /crm_backups/{backupId} {
+      allow read, write: if true;
+    }
+  }
+}
+

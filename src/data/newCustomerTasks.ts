@@ -1,0 +1,7732 @@
+import type { CrmTask } from './crmData.ts';
+
+export const NEW_CUSTOMER_TASKS: CrmTask[] = [
+  {
+    "id": "task-cust-255",
+    "taskCode": "DE-TASK-255",
+    "title": "3kW Hybrid Solar - Nishar Ahmed",
+    "customerName": "Nishar Ahmed",
+    "customerPhone": "+91 9838138552",
+    "customerAddress": "Bharatganj Bajar Manda Khas Prayagraj",
+    "capacityKw": 3,
+    "systemType": "Hybrid Solar",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7539508745",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-2",
+    "assignedToUserName": "Amit Patel",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-09-04T09:31:31.000Z",
+    "ownerInstructions": "Luminous 3Kw Hybrid 100ah Battery | Referred by: Mukesh | Stage ID: 282",
+    "status": "completed",
+    "lastUpdatedAt": "2026-09-04T09:31:31.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-hybrid-storage",
+    "remarksHistory": [
+      {
+        "id": "rem-init-255",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. Luminous 3Kw Hybrid 100ah Battery | Referred by: Mukesh | Stage ID: 282",
+        "timestamp": "2026-09-04T09:31:31.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-254",
+    "taskCode": "DE-TASK-254",
+    "title": "3kW Hybrid Solar - Rashmi Keshari",
+    "customerName": "Rashmi Keshari",
+    "customerPhone": "+91 9559616336",
+    "customerAddress": "Bharatganj Bazar manda Khas Meja Prayagraj",
+    "capacityKw": 3,
+    "systemType": "Hybrid Solar",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7330711850",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-2",
+    "assignedToUserName": "Amit Patel",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-09-04T09:19:14.000Z",
+    "ownerInstructions": "3Kw Fuziama Hybrid 150Ah Battery | Referred by: Mukesh | Stage ID: 281",
+    "status": "completed",
+    "lastUpdatedAt": "2026-09-04T09:19:14.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-hybrid-storage",
+    "remarksHistory": [
+      {
+        "id": "rem-init-254",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. 3Kw Fuziama Hybrid 150Ah Battery | Referred by: Mukesh | Stage ID: 281",
+        "timestamp": "2026-09-04T09:19:14.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-253",
+    "taskCode": "DE-TASK-253",
+    "title": "2kW Hybrid Solar - Seeta Devi",
+    "customerName": "Seeta Devi",
+    "customerPhone": "+91 7304845137",
+    "customerAddress": "Ghanshyam Mejia Meja Prayagraj",
+    "capacityKw": 2,
+    "systemType": "Hybrid Solar",
+    "monthlyBillRs": "2400",
+    "uppclAccountNo": "7533520108",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-2",
+    "assignedToUserName": "Amit Patel",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-09-04T09:16:18.000Z",
+    "ownerInstructions": "Waree Pannel Fuziama 3kw Inverter 150Ah battery | Referred by: Mukesh | Stage ID: 281",
+    "status": "completed",
+    "lastUpdatedAt": "2026-09-04T09:16:18.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-hybrid-storage",
+    "remarksHistory": [
+      {
+        "id": "rem-init-253",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. Waree Pannel Fuziama 3kw Inverter 150Ah battery | Referred by: Mukesh | Stage ID: 281",
+        "timestamp": "2026-09-04T09:16:18.000Z"
+      }
+    ],
+    "dealValueRs": 130000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-252",
+    "taskCode": "DE-TASK-252",
+    "title": "3kW Hybrid Solar - Mo Raphik",
+    "customerName": "Mo Raphik",
+    "customerPhone": "+91 9619238382",
+    "customerAddress": "Shamim Ullah Meja Khas Meja Prayagraj",
+    "capacityKw": 3,
+    "systemType": "Hybrid Solar",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7535101321",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-2",
+    "assignedToUserName": "Amit Patel",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-09-04T09:13:54.000Z",
+    "ownerInstructions": "Luminous 3Kw Hybrid 150L | Referred by: Mukesh | Stage ID: 279",
+    "status": "completed",
+    "lastUpdatedAt": "2026-09-04T09:13:54.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-hybrid-storage",
+    "remarksHistory": [
+      {
+        "id": "rem-init-252",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. Luminous 3Kw Hybrid 150L | Referred by: Mukesh | Stage ID: 279",
+        "timestamp": "2026-09-04T09:13:54.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-251",
+    "taskCode": "DE-TASK-251",
+    "title": "3kW On-Grid Rooftop - Maya devi",
+    "customerName": "Maya devi",
+    "customerPhone": "+91 7905772601",
+    "customerAddress": "Chakiya",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7988474760",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-08-31T11:35:45.000Z",
+    "ownerInstructions": "Referred by: dilip singh | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-08-31T11:35:45.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-251",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dilip singh | Stage ID: 156",
+        "timestamp": "2026-08-31T11:35:45.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-250",
+    "taskCode": "DE-TASK-250",
+    "title": "3kW On-Grid Rooftop - dheeraj tripathi",
+    "customerName": "dheeraj tripathi",
+    "customerPhone": "+91 7355584993",
+    "customerAddress": "kydganj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7847328268",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-08-22T10:46:07.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-08-22T10:46:07.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-250",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-08-22T10:46:07.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-249",
+    "taskCode": "DE-TASK-249",
+    "title": "5kW Hybrid Solar - MD faizan",
+    "customerName": "MD faizan",
+    "customerPhone": "+91 8318480087",
+    "customerAddress": "kareli",
+    "capacityKw": 5,
+    "systemType": "Hybrid Solar",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7179302861",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-2",
+    "assignedToUserName": "Amit Patel",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-08-22T10:41:05.000Z",
+    "ownerInstructions": "Referred by: mukesh | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-08-22T10:41:05.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-249",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: mukesh | Stage ID: 156",
+        "timestamp": "2026-08-22T10:41:05.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-248",
+    "taskCode": "DE-TASK-248",
+    "title": "3kW On-Grid Rooftop - shoni",
+    "customerName": "shoni",
+    "customerPhone": "+91 9935256523",
+    "customerAddress": "kydganj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7228626073",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-08-22T10:32:55.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-08-22T10:32:55.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-248",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-08-22T10:32:55.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-247",
+    "taskCode": "DE-TASK-247",
+    "title": "4kW On-Grid Rooftop - Anil kumar tripathi",
+    "customerName": "Anil kumar tripathi",
+    "customerPhone": "+91 9793935191",
+    "customerAddress": "salori",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7532742912",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-08-22T10:19:11.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-08-22T10:19:11.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-247",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-08-22T10:19:11.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-246",
+    "taskCode": "DE-TASK-246",
+    "title": "3kW Hybrid Solar - Akhilesh Keshari",
+    "customerName": "Akhilesh Keshari",
+    "customerPhone": "+91 9140862101",
+    "customerAddress": "37 Bharatganj Manda Khas Prayagraj",
+    "capacityKw": 3,
+    "systemType": "Hybrid Solar",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7221657328",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-2",
+    "assignedToUserName": "Amit Patel",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-08-20T14:15:15.000Z",
+    "ownerInstructions": "Referred by: Mukesh | Stage ID: 277",
+    "status": "completed",
+    "lastUpdatedAt": "2026-08-20T14:15:15.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-hybrid-storage",
+    "remarksHistory": [
+      {
+        "id": "rem-init-246",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. Referred by: Mukesh | Stage ID: 277",
+        "timestamp": "2026-08-20T14:15:15.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-245",
+    "taskCode": "DE-TASK-245",
+    "title": "3kW Hybrid Solar - Shyam Narayan Pandey",
+    "customerName": "Shyam Narayan Pandey",
+    "customerPhone": "+91 8318328188",
+    "customerAddress": "Sanjai Baraon Karchhana Prayagraj 212301",
+    "capacityKw": 3,
+    "systemType": "Hybrid Solar",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7898725015",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-2",
+    "assignedToUserName": "Amit Patel",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-08-20T06:38:56.000Z",
+    "ownerInstructions": "Referred by: Yash Bhaiya Visit (Mukesh) | Stage ID: 284",
+    "status": "completed",
+    "lastUpdatedAt": "2026-08-20T06:38:56.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-hybrid-storage",
+    "remarksHistory": [
+      {
+        "id": "rem-init-245",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. Referred by: Yash Bhaiya Visit (Mukesh) | Stage ID: 284",
+        "timestamp": "2026-08-20T06:38:56.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-244",
+    "taskCode": "DE-TASK-244",
+    "title": "5kW On-Grid Rooftop - test11",
+    "customerName": "test11",
+    "customerPhone": "+91 7985003309",
+    "customerAddress": "Central Administrative Tribunal Civil Lines",
+    "capacityKw": 5,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7995595410",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-08-19T17:59:57.000Z",
+    "ownerInstructions": "jghj | Referred by: 57 | Stage ID: 158",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-08-19T17:59:57.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-244",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. jghj | Referred by: 57 | Stage ID: 158",
+        "timestamp": "2026-08-19T17:59:57.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-242",
+    "taskCode": "DE-TASK-242",
+    "title": "3kW On-Grid Rooftop - sudheer",
+    "customerName": "sudheer",
+    "customerPhone": "+91 9696861143",
+    "customerAddress": "balua ghat",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7752091321",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-08-07T06:49:07.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 158",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-08-07T06:49:07.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-242",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 158",
+        "timestamp": "2026-08-07T06:49:07.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-241",
+    "taskCode": "DE-TASK-241",
+    "title": "3kW On-Grid Rooftop - Dev prajapati",
+    "customerName": "Dev prajapati",
+    "customerPhone": "+91 9335113448",
+    "customerAddress": "baluaghat",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7905326887",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-08-05T10:11:10.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 157",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-08-05T10:11:10.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-241",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 157",
+        "timestamp": "2026-08-05T10:11:10.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-240",
+    "taskCode": "DE-TASK-240",
+    "title": "5kW Hybrid Solar - tushar kumar",
+    "customerName": "tushar kumar",
+    "customerPhone": "+91 9198077477",
+    "customerAddress": "rajrooppur",
+    "capacityKw": 5,
+    "systemType": "Hybrid Solar",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7286269267",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-08-04T13:07:54.000Z",
+    "ownerInstructions": "Referred by: Manoj Singh | Stage ID: 163",
+    "status": "completed",
+    "lastUpdatedAt": "2026-08-04T13:07:54.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-240",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. Referred by: Manoj Singh | Stage ID: 163",
+        "timestamp": "2026-08-04T13:07:54.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-239",
+    "taskCode": "DE-TASK-239",
+    "title": "4kW On-Grid Rooftop - Ashok gupta",
+    "customerName": "Ashok gupta",
+    "customerPhone": "+91 9839070857",
+    "customerAddress": "kydganj",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7183860957",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-08-04T13:04:09.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 160",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-08-04T13:04:09.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-239",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 160",
+        "timestamp": "2026-08-04T13:04:09.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-238",
+    "taskCode": "DE-TASK-238",
+    "title": "3kW On-Grid Rooftop - Ranjeet tripathi",
+    "customerName": "Ranjeet tripathi",
+    "customerPhone": "+91 6393752479",
+    "customerAddress": "pritamnagar",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7335475998",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-08-04T12:20:44.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-08-04T12:20:44.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-238",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-08-04T12:20:44.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-237",
+    "taskCode": "DE-TASK-237",
+    "title": "3kW On-Grid Rooftop - aviral jaiswal",
+    "customerName": "aviral jaiswal",
+    "customerPhone": "+91 7011383063",
+    "customerAddress": "kydgang",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7327711722",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-08-04T09:38:31.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 159",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-08-04T09:38:31.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-237",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 159",
+        "timestamp": "2026-08-04T09:38:31.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-236",
+    "taskCode": "DE-TASK-236",
+    "title": "3kW On-Grid Rooftop - Reetu Gupta",
+    "customerName": "Reetu Gupta",
+    "customerPhone": "+91 9721774341",
+    "customerAddress": "allapur",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7631787052",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-3",
+    "assignedToUserName": "Priya Sharma",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-08-04T09:24:34.000Z",
+    "ownerInstructions": "Referred by: Animesh | Stage ID: 163",
+    "status": "completed",
+    "lastUpdatedAt": "2026-08-04T09:24:34.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-236",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. Referred by: Animesh | Stage ID: 163",
+        "timestamp": "2026-08-04T09:24:34.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-235",
+    "taskCode": "DE-TASK-235",
+    "title": "3kW On-Grid Rooftop - ran chandra",
+    "customerName": "ran chandra",
+    "customerPhone": "+91 8382827169",
+    "customerAddress": "Prayagraj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7182070419",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-08-01T10:16:18.000Z",
+    "ownerInstructions": "Referred by: Manoj Singh | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-08-01T10:16:18.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-235",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: Manoj Singh | Stage ID: 156",
+        "timestamp": "2026-08-01T10:16:18.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-234",
+    "taskCode": "DE-TASK-234",
+    "title": "3kW On-Grid Rooftop - hemant kumar singh",
+    "customerName": "hemant kumar singh",
+    "customerPhone": "+91 9451745407",
+    "customerAddress": "Prayagraj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7607229978",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-08-01T10:11:56.000Z",
+    "ownerInstructions": "Referred by: manoj singh | Stage ID: 157",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-08-01T10:11:56.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-234",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: manoj singh | Stage ID: 157",
+        "timestamp": "2026-08-01T10:11:56.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-233",
+    "taskCode": "DE-TASK-233",
+    "title": "3kW On-Grid Rooftop - mohit kumar",
+    "customerName": "mohit kumar",
+    "customerPhone": "+91 8115870589",
+    "customerAddress": "kydganj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7898240465",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-30T11:31:35.000Z",
+    "ownerInstructions": "Referred by: lokesh | Stage ID: 157",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-07-30T11:31:35.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-233",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: lokesh | Stage ID: 157",
+        "timestamp": "2026-07-30T11:31:35.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-232",
+    "taskCode": "DE-TASK-232",
+    "title": "3kW On-Grid Rooftop - Baijnath kushwaha",
+    "customerName": "Baijnath kushwaha",
+    "customerPhone": "+91 7678815133",
+    "customerAddress": "Naini",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7978030191",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-2",
+    "assignedToUserName": "Amit Patel",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-29T08:03:30.000Z",
+    "ownerInstructions": "Referred by: Mukesh | Stage ID: 160",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-07-29T08:03:30.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-232",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: Mukesh | Stage ID: 160",
+        "timestamp": "2026-07-29T08:03:30.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-231",
+    "taskCode": "DE-TASK-231",
+    "title": "3kW On-Grid Rooftop - madan kesarwani",
+    "customerName": "madan kesarwani",
+    "customerPhone": "+91 9889412512",
+    "customerAddress": "katghar",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7838434434",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-29T07:45:53.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 157",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-07-29T07:45:53.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-231",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 157",
+        "timestamp": "2026-07-29T07:45:53.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-230",
+    "taskCode": "DE-TASK-230",
+    "title": "3kW On-Grid Rooftop - harsh yadav",
+    "customerName": "harsh yadav",
+    "customerPhone": "+91 6391526613",
+    "customerAddress": "Prayagraj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7948034330",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-29T07:43:46.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 157",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-07-29T07:43:46.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-230",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 157",
+        "timestamp": "2026-07-29T07:43:46.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-229",
+    "taskCode": "DE-TASK-229",
+    "title": "5kW On-Grid Rooftop - chinti lal",
+    "customerName": "chinti lal",
+    "customerPhone": "+91 9335325353",
+    "customerAddress": "kydganj",
+    "capacityKw": 5,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7362506767",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-29T07:40:14.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 160",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-07-29T07:40:14.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-229",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 160",
+        "timestamp": "2026-07-29T07:40:14.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-228",
+    "taskCode": "DE-TASK-228",
+    "title": "3kW On-Grid Rooftop - om prakash mehhta",
+    "customerName": "om prakash mehhta",
+    "customerPhone": "+91 9414241191",
+    "customerAddress": "Prayagraj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7966335412",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-3",
+    "assignedToUserName": "Priya Sharma",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-29T07:38:12.000Z",
+    "ownerInstructions": "Referred by: waaree | Stage ID: 157",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-07-29T07:38:12.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-228",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: waaree | Stage ID: 157",
+        "timestamp": "2026-07-29T07:38:12.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-227",
+    "taskCode": "DE-TASK-227",
+    "title": "3kW On-Grid Rooftop - hariom thakur",
+    "customerName": "hariom thakur",
+    "customerPhone": "+91 7000784873",
+    "customerAddress": "pritamnagar",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7270165085",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-3",
+    "assignedToUserName": "Priya Sharma",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-29T07:33:53.000Z",
+    "ownerInstructions": "Referred by: waaree | Stage ID: 157",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-07-29T07:33:53.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-227",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: waaree | Stage ID: 157",
+        "timestamp": "2026-07-29T07:33:53.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-226",
+    "taskCode": "DE-TASK-226",
+    "title": "3kW On-Grid Rooftop - alok kumar singh",
+    "customerName": "alok kumar singh",
+    "customerPhone": "+91 9621064913",
+    "customerAddress": "Prayagraj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7821788244",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-3",
+    "assignedToUserName": "Priya Sharma",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-29T07:29:23.000Z",
+    "ownerInstructions": "Referred by: waaree | Stage ID: 157",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-07-29T07:29:23.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-226",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: waaree | Stage ID: 157",
+        "timestamp": "2026-07-29T07:29:23.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-225",
+    "taskCode": "DE-TASK-225",
+    "title": "4kW On-Grid Rooftop - aftab ahmad",
+    "customerName": "aftab ahmad",
+    "customerPhone": "+91 7355979549",
+    "customerAddress": "mirapur",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7737679666",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-3",
+    "assignedToUserName": "Priya Sharma",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-29T07:22:17.000Z",
+    "ownerInstructions": "meater lagne ke baad lage ga | Referred by: waaree | Stage ID: 157",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-07-29T07:22:17.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-225",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. meater lagne ke baad lage ga | Referred by: waaree | Stage ID: 157",
+        "timestamp": "2026-07-29T07:22:17.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-224",
+    "taskCode": "DE-TASK-224",
+    "title": "3kW On-Grid Rooftop - shubh kesarwani",
+    "customerName": "shubh kesarwani",
+    "customerPhone": "+91 7310018014",
+    "customerAddress": "mutthiganj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7889890877",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-28T12:28:33.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 157",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-07-28T12:28:33.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-224",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 157",
+        "timestamp": "2026-07-28T12:28:33.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-223",
+    "taskCode": "DE-TASK-223",
+    "title": "4kW On-Grid Rooftop - chaki mam",
+    "customerName": "chaki mam",
+    "customerPhone": "+91 9506710540",
+    "customerAddress": "kydganj",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7837554533",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-28T12:26:16.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 158",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-07-28T12:26:16.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-223",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 158",
+        "timestamp": "2026-07-28T12:26:16.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-222",
+    "taskCode": "DE-TASK-222",
+    "title": "3kW On-Grid Rooftop - Arvind yadav",
+    "customerName": "Arvind yadav",
+    "customerPhone": "+91 9335905234",
+    "customerAddress": "allapur",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7316978161",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-28T12:00:49.000Z",
+    "ownerInstructions": "Referred by: lokesh | Stage ID: 158",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-07-28T12:00:49.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-222",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: lokesh | Stage ID: 158",
+        "timestamp": "2026-07-28T12:00:49.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-221",
+    "taskCode": "DE-TASK-221",
+    "title": "3kW On-Grid Rooftop - kaju kumar",
+    "customerName": "kaju kumar",
+    "customerPhone": "+91 8081211877",
+    "customerAddress": "kydganj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7909479956",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-28T11:59:11.000Z",
+    "ownerInstructions": "Referred by: lokesh | Stage ID: 157",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-07-28T11:59:11.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-221",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: lokesh | Stage ID: 157",
+        "timestamp": "2026-07-28T11:59:11.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-220",
+    "taskCode": "DE-TASK-220",
+    "title": "3kW On-Grid Rooftop - raj kumar sharma",
+    "customerName": "raj kumar sharma",
+    "customerPhone": "+91 9454188675",
+    "customerAddress": "kydganj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7599292922",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-28T11:57:41.000Z",
+    "ownerInstructions": "Referred by: lokesh | Stage ID: 157",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-07-28T11:57:41.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-220",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: lokesh | Stage ID: 157",
+        "timestamp": "2026-07-28T11:57:41.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-219",
+    "taskCode": "DE-TASK-219",
+    "title": "3kW Hybrid Solar - Gangadhar Singh",
+    "customerName": "Gangadhar Singh",
+    "customerPhone": "+91 9519204292",
+    "customerAddress": "Saimha Koraon Prayagraj",
+    "capacityKw": 3,
+    "systemType": "Hybrid Solar",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7704515062",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-2",
+    "assignedToUserName": "Amit Patel",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-25T06:58:00.000Z",
+    "ownerInstructions": "Referred by: Mukesh | Stage ID: 299",
+    "status": "completed",
+    "lastUpdatedAt": "2026-07-25T06:58:00.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-hybrid-storage",
+    "remarksHistory": [
+      {
+        "id": "rem-init-219",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. Referred by: Mukesh | Stage ID: 299",
+        "timestamp": "2026-07-25T06:58:00.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-218",
+    "taskCode": "DE-TASK-218",
+    "title": "2kW On-Grid Rooftop - Anil Kumar Kesari",
+    "customerName": "Anil Kumar Kesari",
+    "customerPhone": "+91 9936172167",
+    "customerAddress": "Meja Khas Meja Prayagraj",
+    "capacityKw": 2,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "2400",
+    "uppclAccountNo": "7335854299",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-2",
+    "assignedToUserName": "Amit Patel",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-25T06:53:51.000Z",
+    "ownerInstructions": "Referred by: Mukesh | Stage ID: 283",
+    "status": "completed",
+    "lastUpdatedAt": "2026-07-25T06:53:51.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-hybrid-storage",
+    "remarksHistory": [
+      {
+        "id": "rem-init-218",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. Referred by: Mukesh | Stage ID: 283",
+        "timestamp": "2026-07-25T06:53:51.000Z"
+      }
+    ],
+    "dealValueRs": 130000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-217",
+    "taskCode": "DE-TASK-217",
+    "title": "3kW Hybrid Solar - Sushila Devi",
+    "customerName": "Sushila Devi",
+    "customerPhone": "+91 7860489505",
+    "customerAddress": "Ward No.6 Mangalwari bazar Bharatganj Manda Khas Prayagraj",
+    "capacityKw": 3,
+    "systemType": "Hybrid Solar",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7380198429",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-2",
+    "assignedToUserName": "Amit Patel",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-24T18:17:26.000Z",
+    "ownerInstructions": "Referred by: Mukesh | Stage ID: 297",
+    "status": "completed",
+    "lastUpdatedAt": "2026-07-24T18:17:26.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-hybrid-storage",
+    "remarksHistory": [
+      {
+        "id": "rem-init-217",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. Referred by: Mukesh | Stage ID: 297",
+        "timestamp": "2026-07-24T18:17:26.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-216",
+    "taskCode": "DE-TASK-216",
+    "title": "6kW On-Grid Rooftop - Poonam MIshra",
+    "customerName": "Poonam MIshra",
+    "customerPhone": "+91 9140835509",
+    "customerAddress": "Pritamnnagar",
+    "capacityKw": 6,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "7200",
+    "uppclAccountNo": "7840725371",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-23T08:27:22.000Z",
+    "ownerInstructions": "Referred by: Dev Bhaiya | Stage ID: 163",
+    "status": "completed",
+    "lastUpdatedAt": "2026-07-23T08:27:22.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-216",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. Referred by: Dev Bhaiya | Stage ID: 163",
+        "timestamp": "2026-07-23T08:27:22.000Z"
+      }
+    ],
+    "dealValueRs": 390000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-215",
+    "taskCode": "DE-TASK-215",
+    "title": "6kW On-Grid Rooftop - Manju Devi",
+    "customerName": "Manju Devi",
+    "customerPhone": "+91 9140033012",
+    "customerAddress": "Baluaghat",
+    "capacityKw": 6,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "7200",
+    "uppclAccountNo": "7781513622",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-23T08:25:33.000Z",
+    "ownerInstructions": "Referred by: Dev Bhaiya | Stage ID: 162",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-07-23T08:25:33.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-215",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: Dev Bhaiya | Stage ID: 162",
+        "timestamp": "2026-07-23T08:25:33.000Z"
+      }
+    ],
+    "dealValueRs": 390000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-214",
+    "taskCode": "DE-TASK-214",
+    "title": "4kW On-Grid Rooftop - H N Sahu",
+    "customerName": "H N Sahu",
+    "customerPhone": "+91 8299426968",
+    "customerAddress": "Kareli",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7995264927",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-3",
+    "assignedToUserName": "Priya Sharma",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-23T08:24:40.000Z",
+    "ownerInstructions": "Referred by: Animesh | Stage ID: 163",
+    "status": "completed",
+    "lastUpdatedAt": "2026-07-23T08:24:40.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-214",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. Referred by: Animesh | Stage ID: 163",
+        "timestamp": "2026-07-23T08:24:40.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-213",
+    "taskCode": "DE-TASK-213",
+    "title": "4kW On-Grid Rooftop - Amit Rai",
+    "customerName": "Amit Rai",
+    "customerPhone": "+91 9454207473",
+    "customerAddress": "Pritamnagar",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7802735647",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-23T08:22:11.000Z",
+    "ownerInstructions": "Referred by: Manoj Singh | Stage ID: 163",
+    "status": "completed",
+    "lastUpdatedAt": "2026-07-23T08:22:11.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-213",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. Referred by: Manoj Singh | Stage ID: 163",
+        "timestamp": "2026-07-23T08:22:11.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-212",
+    "taskCode": "DE-TASK-212",
+    "title": "4kW On-Grid Rooftop - Rajeev Gupta",
+    "customerName": "Rajeev Gupta",
+    "customerPhone": "+91 9696152450",
+    "customerAddress": "Meorabad",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7315075935",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-23T08:21:27.000Z",
+    "ownerInstructions": "Referred by: Saanu | Stage ID: 163",
+    "status": "completed",
+    "lastUpdatedAt": "2026-07-23T08:21:27.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-212",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. Referred by: Saanu | Stage ID: 163",
+        "timestamp": "2026-07-23T08:21:27.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-211",
+    "taskCode": "DE-TASK-211",
+    "title": "4kW On-Grid Rooftop - Usha Arora",
+    "customerName": "Usha Arora",
+    "customerPhone": "+91 9838017426",
+    "customerAddress": "Mirapur",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7999400582",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-23T08:20:37.000Z",
+    "ownerInstructions": "Referred by: Dev Bhaiya | Stage ID: 162",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-07-23T08:20:37.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-211",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: Dev Bhaiya | Stage ID: 162",
+        "timestamp": "2026-07-23T08:20:37.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-210",
+    "taskCode": "DE-TASK-210",
+    "title": "3kW On-Grid Rooftop - Rajneesh Tripathi",
+    "customerName": "Rajneesh Tripathi",
+    "customerPhone": "+91 8874126581",
+    "customerAddress": "Naini",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7901379801",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-23T08:19:48.000Z",
+    "ownerInstructions": "Referred by: Suddu Unncle | Stage ID: 162",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-07-23T08:19:48.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-210",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: Suddu Unncle | Stage ID: 162",
+        "timestamp": "2026-07-23T08:19:48.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-209",
+    "taskCode": "DE-TASK-209",
+    "title": "3kW On-Grid Rooftop - Shyam Pati",
+    "customerName": "Shyam Pati",
+    "customerPhone": "+91 8127938748",
+    "customerAddress": "Mundera",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7719888294",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-23T08:15:54.000Z",
+    "ownerInstructions": "Referred by: Dev Bhaiya | Stage ID: 162",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-07-23T08:15:54.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-209",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: Dev Bhaiya | Stage ID: 162",
+        "timestamp": "2026-07-23T08:15:54.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-208",
+    "taskCode": "DE-TASK-208",
+    "title": "4kW On-Grid Rooftop - Gaytri Devi",
+    "customerName": "Gaytri Devi",
+    "customerPhone": "+91 8400616716",
+    "customerAddress": "Madaoka",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7844671076",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-23T08:12:55.000Z",
+    "ownerInstructions": "Referred by: Dev Bhaiya | Stage ID: 162",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-07-23T08:12:55.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-208",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: Dev Bhaiya | Stage ID: 162",
+        "timestamp": "2026-07-23T08:12:55.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-207",
+    "taskCode": "DE-TASK-207",
+    "title": "3kW On-Grid Rooftop - hannshraj Singh",
+    "customerName": "hannshraj Singh",
+    "customerPhone": "+91 6391712041",
+    "customerAddress": "Daraganj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7824022056",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-3",
+    "assignedToUserName": "Priya Sharma",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-23T08:11:21.000Z",
+    "ownerInstructions": "Referred by: Animesh | Stage ID: 163",
+    "status": "completed",
+    "lastUpdatedAt": "2026-07-23T08:11:21.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-207",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. Referred by: Animesh | Stage ID: 163",
+        "timestamp": "2026-07-23T08:11:21.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-206",
+    "taskCode": "DE-TASK-206",
+    "title": "5kW On-Grid Rooftop - H.N pandey",
+    "customerName": "H.N pandey",
+    "customerPhone": "+91 9140609265",
+    "customerAddress": "Meohall",
+    "capacityKw": 5,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7206392502",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-23T08:09:24.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 163",
+    "status": "completed",
+    "lastUpdatedAt": "2026-07-23T08:09:24.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-206",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 163",
+        "timestamp": "2026-07-23T08:09:24.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-205",
+    "taskCode": "DE-TASK-205",
+    "title": "5kW On-Grid Rooftop - ram milan yadav",
+    "customerName": "ram milan yadav",
+    "customerPhone": "+91 8543953257",
+    "customerAddress": "naini",
+    "capacityKw": 5,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7366264883",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-23T07:34:47.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 163",
+    "status": "completed",
+    "lastUpdatedAt": "2026-07-23T07:34:47.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-205",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 163",
+        "timestamp": "2026-07-23T07:34:47.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-204",
+    "taskCode": "DE-TASK-204",
+    "title": "5kW On-Grid Rooftop - ram ji kesarwani",
+    "customerName": "ram ji kesarwani",
+    "customerPhone": "+91 8004021619",
+    "customerAddress": "kydganj",
+    "capacityKw": 5,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7507770351",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-23T07:28:24.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 162",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-07-23T07:28:24.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-204",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 162",
+        "timestamp": "2026-07-23T07:28:24.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-203",
+    "taskCode": "DE-TASK-203",
+    "title": "3kW On-Grid Rooftop - asha devi jaiswal",
+    "customerName": "asha devi jaiswal",
+    "customerPhone": "+91 8795249084",
+    "customerAddress": "naini",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7507485409",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-22T10:31:26.000Z",
+    "ownerInstructions": "Referred by: swami | Stage ID: 157",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-07-22T10:31:26.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-203",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: swami | Stage ID: 157",
+        "timestamp": "2026-07-22T10:31:26.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-202",
+    "taskCode": "DE-TASK-202",
+    "title": "3kW On-Grid Rooftop - vidyakant dubey",
+    "customerName": "vidyakant dubey",
+    "customerPhone": "+91 9889444082",
+    "customerAddress": "naini",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7174620029",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-22T09:47:46.000Z",
+    "ownerInstructions": "Referred by: swami | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-07-22T09:47:46.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-202",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: swami | Stage ID: 156",
+        "timestamp": "2026-07-22T09:47:46.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-201",
+    "taskCode": "DE-TASK-201",
+    "title": "4kW On-Grid Rooftop - sunita singh",
+    "customerName": "sunita singh",
+    "customerPhone": "+91 9026350870",
+    "customerAddress": "mirapur",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7689901528",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-22T09:44:34.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 163",
+    "status": "completed",
+    "lastUpdatedAt": "2026-07-22T09:44:34.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-201",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 163",
+        "timestamp": "2026-07-22T09:44:34.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-200",
+    "taskCode": "DE-TASK-200",
+    "title": "3kW On-Grid Rooftop - Rajesh kesarwani",
+    "customerName": "Rajesh kesarwani",
+    "customerPhone": "+91 8354815000",
+    "customerAddress": "naini",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7626464538",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-21T09:57:45.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 157",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-07-21T09:57:45.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-200",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 157",
+        "timestamp": "2026-07-21T09:57:45.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-199",
+    "taskCode": "DE-TASK-199",
+    "title": "3kW On-Grid Rooftop - Ramesh chandra",
+    "customerName": "Ramesh chandra",
+    "customerPhone": "+91 9120263562",
+    "customerAddress": "kydganj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7993226649",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-21T09:56:13.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 158",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-07-21T09:56:13.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-199",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 158",
+        "timestamp": "2026-07-21T09:56:13.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-198",
+    "taskCode": "DE-TASK-198",
+    "title": "3kW Hybrid Solar - Bhagwan Das Kesari",
+    "customerName": "Bhagwan Das Kesari",
+    "customerPhone": "+91 7860182551",
+    "customerAddress": "Shri Niwas Meja Khas Meja Prayagraj",
+    "capacityKw": 3,
+    "systemType": "Hybrid Solar",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7190825331",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-2",
+    "assignedToUserName": "Amit Patel",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-19T10:29:55.000Z",
+    "ownerInstructions": "2.44 Lakh | Referred by: Mukesh | Stage ID: 284",
+    "status": "completed",
+    "lastUpdatedAt": "2026-07-19T10:29:55.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-hybrid-storage",
+    "remarksHistory": [
+      {
+        "id": "rem-init-198",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. 2.44 Lakh | Referred by: Mukesh | Stage ID: 284",
+        "timestamp": "2026-07-19T10:29:55.000Z"
+      }
+    ],
+    "dealValueRs": 244000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-186",
+    "taskCode": "DE-TASK-186",
+    "title": "4kW On-Grid Rooftop - shashikant tripathi",
+    "customerName": "shashikant tripathi",
+    "customerPhone": "+91 8707699473",
+    "customerAddress": "chivil lines",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7509176840",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-13T07:53:11.000Z",
+    "ownerInstructions": "Referred by: dev",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-13T07:53:11.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-186",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. Referred by: dev",
+        "timestamp": "2026-07-13T07:53:11.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-185",
+    "taskCode": "DE-TASK-185",
+    "title": "10kW On-Grid Rooftop - akash agarwal",
+    "customerName": "akash agarwal",
+    "customerPhone": "+91 6306921091",
+    "customerAddress": "ram bagh",
+    "capacityKw": 10,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "12000",
+    "uppclAccountNo": "7515778565",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-13T07:45:47.000Z",
+    "ownerInstructions": "Referred by: dev",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-13T07:45:47.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-185",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. Referred by: dev",
+        "timestamp": "2026-07-13T07:45:47.000Z"
+      }
+    ],
+    "dealValueRs": 650000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-184",
+    "taskCode": "DE-TASK-184",
+    "title": "3kW On-Grid Rooftop - gulab kali",
+    "customerName": "gulab kali",
+    "customerPhone": "+91 9696147370",
+    "customerAddress": "naini fci",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7758800286",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-13T07:42:25.000Z",
+    "ownerInstructions": "Referred by: sushil",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-13T07:42:25.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-184",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. Referred by: sushil",
+        "timestamp": "2026-07-13T07:42:25.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-183",
+    "taskCode": "DE-TASK-183",
+    "title": "5kW On-Grid Rooftop - shes mani panday",
+    "customerName": "shes mani panday",
+    "customerPhone": "+91 8004795387",
+    "customerAddress": "naini",
+    "capacityKw": 5,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7652591953",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-13T07:39:58.000Z",
+    "ownerInstructions": "Referred by: sawmi",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-13T07:39:58.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-183",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. Referred by: sawmi",
+        "timestamp": "2026-07-13T07:39:58.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-182",
+    "taskCode": "DE-TASK-182",
+    "title": "6kW On-Grid Rooftop - banke bihari",
+    "customerName": "banke bihari",
+    "customerPhone": "+91 9335129664",
+    "customerAddress": "kydganj",
+    "capacityKw": 6,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "7200",
+    "uppclAccountNo": "7132743890",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-13T07:36:53.000Z",
+    "ownerInstructions": "Referred by: dev",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-13T07:36:53.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-182",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. Referred by: dev",
+        "timestamp": "2026-07-13T07:36:53.000Z"
+      }
+    ],
+    "dealValueRs": 390000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-181",
+    "taskCode": "DE-TASK-181",
+    "title": "4kW On-Grid Rooftop - jitendra singh",
+    "customerName": "jitendra singh",
+    "customerPhone": "+91 8869904878",
+    "customerAddress": "naini",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7200618622",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-13T07:26:53.000Z",
+    "ownerInstructions": "Referred by: shudu",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-13T07:26:53.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-181",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. Referred by: shudu",
+        "timestamp": "2026-07-13T07:26:53.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-180",
+    "taskCode": "DE-TASK-180",
+    "title": "3kW On-Grid Rooftop - dhirendra kumar sahu",
+    "customerName": "dhirendra kumar sahu",
+    "customerPhone": "+91 9335150867",
+    "customerAddress": "lukarganj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7717348141",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-13T07:22:42.000Z",
+    "ownerInstructions": "Referred by: dev",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-13T07:22:42.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-180",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. Referred by: dev",
+        "timestamp": "2026-07-13T07:22:42.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-179",
+    "taskCode": "DE-TASK-179",
+    "title": "3kW On-Grid Rooftop - dhiraj kumar kesarwani",
+    "customerName": "dhiraj kumar kesarwani",
+    "customerPhone": "+91 9369108354",
+    "customerAddress": "naini",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7707804042",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-13T07:16:28.000Z",
+    "ownerInstructions": "Referred by: sanu bhaiya",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-13T07:16:28.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-179",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. Referred by: sanu bhaiya",
+        "timestamp": "2026-07-13T07:16:28.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-178",
+    "taskCode": "DE-TASK-178",
+    "title": "5kW On-Grid Rooftop - ambuj tripathi",
+    "customerName": "ambuj tripathi",
+    "customerPhone": "+91 9839668683",
+    "customerAddress": "jastown",
+    "capacityKw": 5,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7426359413",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-13T07:11:21.000Z",
+    "ownerInstructions": "Referred by: dev",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-13T07:11:21.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-178",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. Referred by: dev",
+        "timestamp": "2026-07-13T07:11:21.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-177",
+    "taskCode": "DE-TASK-177",
+    "title": "4kW On-Grid Rooftop - vijay srivasta",
+    "customerName": "vijay srivasta",
+    "customerPhone": "+91 9335119241",
+    "customerAddress": "gau ghat",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7623422939",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-13T07:04:33.000Z",
+    "ownerInstructions": "Referred by: dev",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-13T07:04:33.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-177",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. Referred by: dev",
+        "timestamp": "2026-07-13T07:04:33.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-175",
+    "taskCode": "DE-TASK-175",
+    "title": "3kW On-Grid Rooftop - Rekha devi",
+    "customerName": "Rekha devi",
+    "customerPhone": "+91 9307884377",
+    "customerAddress": "prayagraj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7318775447",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-13T06:39:57.000Z",
+    "ownerInstructions": "Customer inquiry from Dilip Enterprises solar register.",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-13T06:39:57.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-175",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. ",
+        "timestamp": "2026-07-13T06:39:57.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-174",
+    "taskCode": "DE-TASK-174",
+    "title": "6kW On-Grid Rooftop - Pankaj Kumar Asthana",
+    "customerName": "Pankaj Kumar Asthana",
+    "customerPhone": "+91 9450633659",
+    "customerAddress": "prayagraj",
+    "capacityKw": 6,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "7200",
+    "uppclAccountNo": "7321429505",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-13T06:38:41.000Z",
+    "ownerInstructions": "Customer inquiry from Dilip Enterprises solar register.",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-13T06:38:41.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-174",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. ",
+        "timestamp": "2026-07-13T06:38:41.000Z"
+      }
+    ],
+    "dealValueRs": 390000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-173",
+    "taskCode": "DE-TASK-173",
+    "title": "3kW On-Grid Rooftop - MAZDA BEGUM",
+    "customerName": "MAZDA BEGUM",
+    "customerPhone": "+91 9450605362",
+    "customerAddress": "NAINI PRAYAGRAJ",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7431644777",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-11T12:38:29.000Z",
+    "ownerInstructions": "Customer inquiry from Dilip Enterprises solar register.",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-11T12:38:29.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-173",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. ",
+        "timestamp": "2026-07-11T12:38:29.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-172",
+    "taskCode": "DE-TASK-172",
+    "title": "3kW On-Grid Rooftop - Pramod Pal",
+    "customerName": "Pramod Pal",
+    "customerPhone": "+91 9120114264",
+    "customerAddress": "KASARI MASARI",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7872632164",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-11T12:35:19.000Z",
+    "ownerInstructions": "Customer inquiry from Dilip Enterprises solar register.",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-11T12:35:19.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-172",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. ",
+        "timestamp": "2026-07-11T12:35:19.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-171",
+    "taskCode": "DE-TASK-171",
+    "title": "3kW On-Grid Rooftop - Vageesh Tripathi",
+    "customerName": "Vageesh Tripathi",
+    "customerPhone": "+91 7905141262",
+    "customerAddress": "NAINI PRAYAGRAJ",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7411226138",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-11T12:32:10.000Z",
+    "ownerInstructions": "Customer inquiry from Dilip Enterprises solar register.",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-11T12:32:10.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-171",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. ",
+        "timestamp": "2026-07-11T12:32:10.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-170",
+    "taskCode": "DE-TASK-170",
+    "title": "3kW On-Grid Rooftop - MANISH TRIPATHI",
+    "customerName": "MANISH TRIPATHI",
+    "customerPhone": "+91 9026615030",
+    "customerAddress": "NAINI",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7962127151",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-11T12:30:47.000Z",
+    "ownerInstructions": "Customer inquiry from Dilip Enterprises solar register.",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-11T12:30:47.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-170",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. ",
+        "timestamp": "2026-07-11T12:30:47.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-169",
+    "taskCode": "DE-TASK-169",
+    "title": "3kW On-Grid Rooftop - ARCHNA YADAV",
+    "customerName": "ARCHNA YADAV",
+    "customerPhone": "+91 8934833650",
+    "customerAddress": "JHUNSI",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7707411122",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-11T12:29:36.000Z",
+    "ownerInstructions": "Customer inquiry from Dilip Enterprises solar register.",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-11T12:29:36.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-169",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. ",
+        "timestamp": "2026-07-11T12:29:36.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-168",
+    "taskCode": "DE-TASK-168",
+    "title": "3kW On-Grid Rooftop - Ram Ayodhya",
+    "customerName": "Ram Ayodhya",
+    "customerPhone": "+91 9956591596",
+    "customerAddress": "PRAYAGRAJ",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7520821554",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-11T12:28:03.000Z",
+    "ownerInstructions": "Customer inquiry from Dilip Enterprises solar register.",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-11T12:28:03.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-168",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. ",
+        "timestamp": "2026-07-11T12:28:03.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-167",
+    "taskCode": "DE-TASK-167",
+    "title": "3kW On-Grid Rooftop - Tripurari Pal",
+    "customerName": "Tripurari Pal",
+    "customerPhone": "+91 8181835538",
+    "customerAddress": "PRAYAGRAJ",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7373001626",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-11T12:23:45.000Z",
+    "ownerInstructions": "Customer inquiry from Dilip Enterprises solar register.",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-11T12:23:45.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-167",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. ",
+        "timestamp": "2026-07-11T12:23:45.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-166",
+    "taskCode": "DE-TASK-166",
+    "title": "5kW On-Grid Rooftop - NEERAJ LATA",
+    "customerName": "NEERAJ LATA",
+    "customerPhone": "+91 6392527813",
+    "customerAddress": "NAINI PRAYAGRAJ",
+    "capacityKw": 5,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7717346301",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-11T12:21:24.000Z",
+    "ownerInstructions": "Customer inquiry from Dilip Enterprises solar register.",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-11T12:21:24.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-166",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. ",
+        "timestamp": "2026-07-11T12:21:24.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-165",
+    "taskCode": "DE-TASK-165",
+    "title": "4kW On-Grid Rooftop - CHANDRAKANT KESHARWANI",
+    "customerName": "CHANDRAKANT KESHARWANI",
+    "customerPhone": "+91 7007745539",
+    "customerAddress": "ADA NAINI  PRAYAGRAJ",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7462868066",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-11T12:18:27.000Z",
+    "ownerInstructions": "Customer inquiry from Dilip Enterprises solar register.",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-11T12:18:27.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-165",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. ",
+        "timestamp": "2026-07-11T12:18:27.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-164",
+    "taskCode": "DE-TASK-164",
+    "title": "3kW On-Grid Rooftop - MAYA MISHRA",
+    "customerName": "MAYA MISHRA",
+    "customerPhone": "+91 9696478863",
+    "customerAddress": "KYDGANJ",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7338766764",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-11T12:02:09.000Z",
+    "ownerInstructions": "Customer inquiry from Dilip Enterprises solar register.",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-11T12:02:09.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-164",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. ",
+        "timestamp": "2026-07-11T12:02:09.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-163",
+    "taskCode": "DE-TASK-163",
+    "title": "3kW On-Grid Rooftop - Akanksha singh",
+    "customerName": "Akanksha singh",
+    "customerPhone": "+91 9484762366",
+    "customerAddress": "KASARI MASARI",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7655354672",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-11T12:00:47.000Z",
+    "ownerInstructions": "Customer inquiry from Dilip Enterprises solar register.",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-11T12:00:47.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-163",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. ",
+        "timestamp": "2026-07-11T12:00:47.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-162",
+    "taskCode": "DE-TASK-162",
+    "title": "3kW On-Grid Rooftop - SMT SARLA",
+    "customerName": "SMT SARLA",
+    "customerPhone": "+91 9125387104",
+    "customerAddress": "prayagraj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7964486820",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-11T11:58:57.000Z",
+    "ownerInstructions": "Customer inquiry from Dilip Enterprises solar register.",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-11T11:58:57.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-162",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. ",
+        "timestamp": "2026-07-11T11:58:57.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-161",
+    "taskCode": "DE-TASK-161",
+    "title": "3kW On-Grid Rooftop - Sudheer Sahu",
+    "customerName": "Sudheer Sahu",
+    "customerPhone": "+91 9628767676",
+    "customerAddress": "Mama bhanja Talab",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7787284267",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-11T11:48:15.000Z",
+    "ownerInstructions": "Customer inquiry from Dilip Enterprises solar register.",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-11T11:48:15.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-161",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. ",
+        "timestamp": "2026-07-11T11:48:15.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-160",
+    "taskCode": "DE-TASK-160",
+    "title": "3kW On-Grid Rooftop - MAHESH VAISHYA",
+    "customerName": "MAHESH VAISHYA",
+    "customerPhone": "+91 9987495319",
+    "customerAddress": "Naini Prayagraj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7228141470",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-11T11:44:25.000Z",
+    "ownerInstructions": "Customer inquiry from Dilip Enterprises solar register.",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-11T11:44:25.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-160",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. ",
+        "timestamp": "2026-07-11T11:44:25.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-159",
+    "taskCode": "DE-TASK-159",
+    "title": "5kW On-Grid Rooftop - NEHA TIWARI",
+    "customerName": "NEHA TIWARI",
+    "customerPhone": "+91 7755816366",
+    "customerAddress": "kydganj",
+    "capacityKw": 5,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7741341422",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-11T11:34:25.000Z",
+    "ownerInstructions": "Customer inquiry from Dilip Enterprises solar register.",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-11T11:34:25.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-159",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. ",
+        "timestamp": "2026-07-11T11:34:25.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-158",
+    "taskCode": "DE-TASK-158",
+    "title": "3kW On-Grid Rooftop - DEVI PD PANDEY",
+    "customerName": "DEVI PD PANDEY",
+    "customerPhone": "+91 8527716958",
+    "customerAddress": "prayagraj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7112937320",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-11T11:33:08.000Z",
+    "ownerInstructions": "Customer inquiry from Dilip Enterprises solar register.",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-11T11:33:08.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-158",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. ",
+        "timestamp": "2026-07-11T11:33:08.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-157",
+    "taskCode": "DE-TASK-157",
+    "title": "3kW On-Grid Rooftop - NIRAJ KUMAR",
+    "customerName": "NIRAJ KUMAR",
+    "customerPhone": "+91 8604659518",
+    "customerAddress": "prayagraj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7462074594",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-11T11:32:06.000Z",
+    "ownerInstructions": "Customer inquiry from Dilip Enterprises solar register.",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-11T11:32:06.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-157",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. ",
+        "timestamp": "2026-07-11T11:32:06.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-156",
+    "taskCode": "DE-TASK-156",
+    "title": "3kW On-Grid Rooftop - Nagendra Bahadur Yadav",
+    "customerName": "Nagendra Bahadur Yadav",
+    "customerPhone": "+91 8957582125",
+    "customerAddress": "prayagraj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7566437100",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-11T11:30:50.000Z",
+    "ownerInstructions": "Customer inquiry from Dilip Enterprises solar register.",
+    "status": "not started",
+    "lastUpdatedAt": "2026-07-11T11:30:50.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-156",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. ",
+        "timestamp": "2026-07-11T11:30:50.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-155",
+    "taskCode": "DE-TASK-155",
+    "title": "5kW On-Grid Rooftop - KRIPA SHANKAR KUSHWAHA",
+    "customerName": "KRIPA SHANKAR KUSHWAHA",
+    "customerPhone": "+91 9889415939",
+    "customerAddress": "BALUA GHAT",
+    "capacityKw": 5,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7871722948",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-11T11:28:23.000Z",
+    "ownerInstructions": "Stage ID: 172",
+    "status": "completed",
+    "lastUpdatedAt": "2026-07-11T11:28:23.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-155",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. Stage ID: 172",
+        "timestamp": "2026-07-11T11:28:23.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-154",
+    "taskCode": "DE-TASK-154",
+    "title": "3kW On-Grid Rooftop - RAM BABU KESARWANI",
+    "customerName": "RAM BABU KESARWANI",
+    "customerPhone": "+91 6387902274",
+    "customerAddress": "NAINI PRAYAGRAJ",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7484771487",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-11T11:24:43.000Z",
+    "ownerInstructions": "Stage ID: 165",
+    "status": "completed",
+    "lastUpdatedAt": "2026-07-11T11:24:43.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-154",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. Stage ID: 165",
+        "timestamp": "2026-07-11T11:24:43.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-147",
+    "taskCode": "DE-TASK-147",
+    "title": "3kW On-Grid Rooftop - Gopal krishna sharma",
+    "customerName": "Gopal krishna sharma",
+    "customerPhone": "+91 9838704221",
+    "customerAddress": "kydganj chokhandi",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7448233109",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-10T08:01:42.000Z",
+    "ownerInstructions": "Referred by: lokesh | Stage ID: 157",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-07-10T08:01:42.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-147",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: lokesh | Stage ID: 157",
+        "timestamp": "2026-07-10T08:01:42.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-145",
+    "taskCode": "DE-TASK-145",
+    "title": "2kW Hybrid Solar - Bagesh Chandra Pandey",
+    "customerName": "Bagesh Chandra Pandey",
+    "customerPhone": "+91 9936168537",
+    "customerAddress": "ATIRI AMILIYA KURKI KALAN MEJA PRAYAGRAJ",
+    "capacityKw": 2,
+    "systemType": "Hybrid Solar",
+    "monthlyBillRs": "2400",
+    "uppclAccountNo": "7882211414",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-2",
+    "assignedToUserName": "Amit Patel",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-07T08:09:26.000Z",
+    "ownerInstructions": "2KW LUMINOUS HYBRID 1.80L | Referred by: Mukesh | Stage ID: 299",
+    "status": "completed",
+    "lastUpdatedAt": "2026-07-07T08:09:26.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-hybrid-storage",
+    "remarksHistory": [
+      {
+        "id": "rem-init-145",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. 2KW LUMINOUS HYBRID 1.80L | Referred by: Mukesh | Stage ID: 299",
+        "timestamp": "2026-07-07T08:09:26.000Z"
+      }
+    ],
+    "dealValueRs": 180000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-142",
+    "taskCode": "DE-TASK-142",
+    "title": "5kW On-Grid Rooftop - ramesh singh",
+    "customerName": "ramesh singh",
+    "customerPhone": "+91 7985900365",
+    "customerAddress": "pritamnnagar",
+    "capacityKw": 5,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7838141713",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-06T08:02:49.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 157",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-07-06T08:02:49.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-142",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 157",
+        "timestamp": "2026-07-06T08:02:49.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-141",
+    "taskCode": "DE-TASK-141",
+    "title": "5kW On-Grid Rooftop - manoj kumar dikshit",
+    "customerName": "manoj kumar dikshit",
+    "customerPhone": "+91 9307077332",
+    "customerAddress": "katra",
+    "capacityKw": 5,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7722929498",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-06T07:59:33.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 162",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-07-06T07:59:33.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-141",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 162",
+        "timestamp": "2026-07-06T07:59:33.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-140",
+    "taskCode": "DE-TASK-140",
+    "title": "3kW On-Grid Rooftop - chandan singh",
+    "customerName": "chandan singh",
+    "customerPhone": "+91 8299550190",
+    "customerAddress": "ram bagh",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7476824193",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-06T07:52:34.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-07-06T07:52:34.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-140",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-07-06T07:52:34.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-139",
+    "taskCode": "DE-TASK-139",
+    "title": "5kW On-Grid Rooftop - mandatest",
+    "customerName": "mandatest",
+    "customerPhone": "+91 7985003309",
+    "customerAddress": "dgdkl",
+    "capacityKw": 5,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7178731181",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-07-04T17:23:19.000Z",
+    "ownerInstructions": "gdfg | Referred by: dgd | Stage ID: 299",
+    "status": "completed",
+    "lastUpdatedAt": "2026-07-04T17:23:19.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-hybrid-storage",
+    "remarksHistory": [
+      {
+        "id": "rem-init-139",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. gdfg | Referred by: dgd | Stage ID: 299",
+        "timestamp": "2026-07-04T17:23:19.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-136",
+    "taskCode": "DE-TASK-136",
+    "title": "3kW On-Grid Rooftop - Shamim Ahmed Khan",
+    "customerName": "Shamim Ahmed Khan",
+    "customerPhone": "+91 9935745086",
+    "customerAddress": "Manda khas Prayagraj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7446551610",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-28T03:55:56.000Z",
+    "ownerInstructions": "Luminus 3kw Ongrid | Referred by: Dev Bhaiya | Stage ID: 296",
+    "status": "completed",
+    "lastUpdatedAt": "2026-06-28T03:55:56.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-hybrid-storage",
+    "remarksHistory": [
+      {
+        "id": "rem-init-136",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. Luminus 3kw Ongrid | Referred by: Dev Bhaiya | Stage ID: 296",
+        "timestamp": "2026-06-28T03:55:56.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-134",
+    "taskCode": "DE-TASK-134",
+    "title": "2kW Hybrid Solar - Santosh Kumari",
+    "customerName": "Santosh Kumari",
+    "customerPhone": "+91 9695920666",
+    "customerAddress": "Meja Khas Prayagraj",
+    "capacityKw": 2,
+    "systemType": "Hybrid Solar",
+    "monthlyBillRs": "2400",
+    "uppclAccountNo": "7608418715",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-2",
+    "assignedToUserName": "Amit Patel",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-28T03:42:12.000Z",
+    "ownerInstructions": "Manda office | Referred by: Mukesh | Stage ID: 283",
+    "status": "completed",
+    "lastUpdatedAt": "2026-06-28T03:42:12.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-hybrid-storage",
+    "remarksHistory": [
+      {
+        "id": "rem-init-134",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. Manda office | Referred by: Mukesh | Stage ID: 283",
+        "timestamp": "2026-06-28T03:42:12.000Z"
+      }
+    ],
+    "dealValueRs": 130000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-133",
+    "taskCode": "DE-TASK-133",
+    "title": "2kW On-Grid Rooftop - Rajesh Kumar",
+    "customerName": "Rajesh Kumar",
+    "customerPhone": "+91 9794076551",
+    "customerAddress": "Misirpur post kurki kalan meja Prayagraj",
+    "capacityKw": 2,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "2400",
+    "uppclAccountNo": "7247675759",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-2",
+    "assignedToUserName": "Amit Patel",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-28T03:38:31.000Z",
+    "ownerInstructions": "Manda office | Referred by: Mukesh | Stage ID: 282",
+    "status": "completed",
+    "lastUpdatedAt": "2026-06-28T03:38:31.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-hybrid-storage",
+    "remarksHistory": [
+      {
+        "id": "rem-init-133",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. Manda office | Referred by: Mukesh | Stage ID: 282",
+        "timestamp": "2026-06-28T03:38:31.000Z"
+      }
+    ],
+    "dealValueRs": 130000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-131",
+    "taskCode": "DE-TASK-131",
+    "title": "4kW On-Grid Rooftop - Chandan kushwaha",
+    "customerName": "Chandan kushwaha",
+    "customerPhone": "+91 8299665247",
+    "customerAddress": "rajrooppur",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7716145047",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-22T09:34:08.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 158",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-06-22T09:34:08.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-131",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 158",
+        "timestamp": "2026-06-22T09:34:08.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-122",
+    "taskCode": "DE-TASK-122",
+    "title": "4kW On-Grid Rooftop - rajeev khanna",
+    "customerName": "rajeev khanna",
+    "customerPhone": "+91 6393437991",
+    "customerAddress": "maduka",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7152818332",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:54:43.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 161",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-06-19T09:54:43.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-122",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 161",
+        "timestamp": "2026-06-19T09:54:43.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-121",
+    "taskCode": "DE-TASK-121",
+    "title": "5kW On-Grid Rooftop - varun kesarwani",
+    "customerName": "varun kesarwani",
+    "customerPhone": "+91 9336109167",
+    "customerAddress": "kalyani devi",
+    "capacityKw": 5,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7690685943",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:52:41.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 162",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-06-19T09:52:41.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-121",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 162",
+        "timestamp": "2026-06-19T09:52:41.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-120",
+    "taskCode": "DE-TASK-120",
+    "title": "5kW On-Grid Rooftop - ajeet kumar kesarwani",
+    "customerName": "ajeet kumar kesarwani",
+    "customerPhone": "+91 9336733025",
+    "customerAddress": "kalyani devi",
+    "capacityKw": 5,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7629390939",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:51:36.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 162",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-06-19T09:51:36.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-120",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 162",
+        "timestamp": "2026-06-19T09:51:36.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-119",
+    "taskCode": "DE-TASK-119",
+    "title": "5kW On-Grid Rooftop - suman mishra",
+    "customerName": "suman mishra",
+    "customerPhone": "+91 9415273339",
+    "customerAddress": "jhusi",
+    "capacityKw": 5,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7664053172",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-3",
+    "assignedToUserName": "Priya Sharma",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:49:57.000Z",
+    "ownerInstructions": "Referred by: animesh | Stage ID: 162",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-06-19T09:49:57.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-119",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: animesh | Stage ID: 162",
+        "timestamp": "2026-06-19T09:49:57.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-118",
+    "taskCode": "DE-TASK-118",
+    "title": "5kW On-Grid Rooftop - honey kumar (nigam)",
+    "customerName": "honey kumar (nigam)",
+    "customerPhone": "+91 7458983174",
+    "customerAddress": "teliyarganj",
+    "capacityKw": 5,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7380264392",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:43:13.000Z",
+    "ownerInstructions": "Referred by: nigam | Stage ID: 162",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-06-19T09:43:13.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-118",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: nigam | Stage ID: 162",
+        "timestamp": "2026-06-19T09:43:13.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-117",
+    "taskCode": "DE-TASK-117",
+    "title": "5kW On-Grid Rooftop - deepak verma",
+    "customerName": "deepak verma",
+    "customerPhone": "+91 9236162850",
+    "customerAddress": "mirapur",
+    "capacityKw": 5,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7275655279",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:40:30.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 162",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-06-19T09:40:30.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-117",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 162",
+        "timestamp": "2026-06-19T09:40:30.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-116",
+    "taskCode": "DE-TASK-116",
+    "title": "3kW On-Grid Rooftop - manoj kumar (nigam )",
+    "customerName": "manoj kumar (nigam )",
+    "customerPhone": "+91 7458983174",
+    "customerAddress": "sulem sarai",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7509061769",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:39:34.000Z",
+    "ownerInstructions": "Referred by: nigam | Stage ID: 162",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-06-19T09:39:34.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-116",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: nigam | Stage ID: 162",
+        "timestamp": "2026-06-19T09:39:34.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-113",
+    "taskCode": "DE-TASK-113",
+    "title": "4kW On-Grid Rooftop - mohan mani",
+    "customerName": "mohan mani",
+    "customerPhone": "+91 9807341625",
+    "customerAddress": "bai ka bagh",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7912914856",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:35:06.000Z",
+    "ownerInstructions": "Referred by: sanu bhaiya | Stage ID: 162",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-06-19T09:35:06.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-113",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: sanu bhaiya | Stage ID: 162",
+        "timestamp": "2026-06-19T09:35:06.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-112",
+    "taskCode": "DE-TASK-112",
+    "title": "3kW On-Grid Rooftop - ram kumar verma",
+    "customerName": "ram kumar verma",
+    "customerPhone": "+91 9140095062",
+    "customerAddress": "kydganj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7748673385",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:33:32.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 160",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-06-19T09:33:32.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-112",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 160",
+        "timestamp": "2026-06-19T09:33:32.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-111",
+    "taskCode": "DE-TASK-111",
+    "title": "3kW On-Grid Rooftop - om prakash",
+    "customerName": "om prakash",
+    "customerPhone": "+91 7311125959",
+    "customerAddress": "Prayagraj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7215179151",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:32:14.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T09:32:14.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-111",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T09:32:14.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-110",
+    "taskCode": "DE-TASK-110",
+    "title": "3kW On-Grid Rooftop - priyanshu",
+    "customerName": "priyanshu",
+    "customerPhone": "+91 8840358106",
+    "customerAddress": "Prayagraj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7793743959",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:31:26.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T09:31:26.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-110",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T09:31:26.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-109",
+    "taskCode": "DE-TASK-109",
+    "title": "3kW On-Grid Rooftop - kittu bhaiya",
+    "customerName": "kittu bhaiya",
+    "customerPhone": "+91 9984123504",
+    "customerAddress": "kydganj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7250431350",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:29:17.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T09:29:17.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-109",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T09:29:17.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-108",
+    "taskCode": "DE-TASK-108",
+    "title": "4kW On-Grid Rooftop - mohmad ekram",
+    "customerName": "mohmad ekram",
+    "customerPhone": "+91 9120099939",
+    "customerAddress": "niranjan",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7125191511",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:27:54.000Z",
+    "ownerInstructions": "Referred by: mustafa | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T09:27:54.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-108",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: mustafa | Stage ID: 156",
+        "timestamp": "2026-06-19T09:27:54.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-107",
+    "taskCode": "DE-TASK-107",
+    "title": "3kW On-Grid Rooftop - puneet kesarwani",
+    "customerName": "puneet kesarwani",
+    "customerPhone": "+91 8081266908",
+    "customerAddress": "kydganj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7560491373",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:26:38.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 157",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T09:26:38.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-107",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 157",
+        "timestamp": "2026-06-19T09:26:38.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-106",
+    "taskCode": "DE-TASK-106",
+    "title": "3kW On-Grid Rooftop - ayush kesarwani",
+    "customerName": "ayush kesarwani",
+    "customerPhone": "+91 9695404820",
+    "customerAddress": "mirapur",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7532353853",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:25:17.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T09:25:17.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-106",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T09:25:17.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-105",
+    "taskCode": "DE-TASK-105",
+    "title": "3kW On-Grid Rooftop - P.K pandey",
+    "customerName": "P.K pandey",
+    "customerPhone": "+91 9305221520",
+    "customerAddress": "Prayagraj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7914443982",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:24:15.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T09:24:15.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-105",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T09:24:15.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-104",
+    "taskCode": "DE-TASK-104",
+    "title": "3kW On-Grid Rooftop - rahul kesarwani",
+    "customerName": "rahul kesarwani",
+    "customerPhone": "+91 6388407272",
+    "customerAddress": "Prayagraj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7676037886",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:22:30.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T09:22:30.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-104",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T09:22:30.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-103",
+    "taskCode": "DE-TASK-103",
+    "title": "3kW On-Grid Rooftop - vishwanath chaurasiya",
+    "customerName": "vishwanath chaurasiya",
+    "customerPhone": "+91 9956002435",
+    "customerAddress": "mahewa naini",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7173402867",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:21:35.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 162",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-06-19T09:21:35.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-103",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 162",
+        "timestamp": "2026-06-19T09:21:35.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-102",
+    "taskCode": "DE-TASK-102",
+    "title": "3kW On-Grid Rooftop - aksaht waaree",
+    "customerName": "aksaht waaree",
+    "customerPhone": "+91 8115909198",
+    "customerAddress": "banrauli",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7860913132",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:20:14.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T09:20:14.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-102",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T09:20:14.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-101",
+    "taskCode": "DE-TASK-101",
+    "title": "3kW On-Grid Rooftop - maneesh singh",
+    "customerName": "maneesh singh",
+    "customerPhone": "+91 8299426703",
+    "customerAddress": "Prayagraj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7405208306",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:18:49.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 157",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T09:18:49.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-101",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 157",
+        "timestamp": "2026-06-19T09:18:49.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-100",
+    "taskCode": "DE-TASK-100",
+    "title": "4kW On-Grid Rooftop - santosh chaurasia",
+    "customerName": "santosh chaurasia",
+    "customerPhone": "+91 8935055432",
+    "customerAddress": "katra",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7117568634",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:16:32.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 162",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-06-19T09:16:32.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-100",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 162",
+        "timestamp": "2026-06-19T09:16:32.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-99",
+    "taskCode": "DE-TASK-99",
+    "title": "3kW On-Grid Rooftop - sumit",
+    "customerName": "sumit",
+    "customerPhone": "+91 9794539769",
+    "customerAddress": "Prayagraj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7662935370",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:14:49.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T09:14:49.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-99",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T09:14:49.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-97",
+    "taskCode": "DE-TASK-97",
+    "title": "5kW On-Grid Rooftop - rafi ansari",
+    "customerName": "rafi ansari",
+    "customerPhone": "+91 9889316756",
+    "customerAddress": "madoka",
+    "capacityKw": 5,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7479525259",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:09:35.000Z",
+    "ownerInstructions": "Referred by: ashfak | Stage ID: 162",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-06-19T09:09:35.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-97",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: ashfak | Stage ID: 162",
+        "timestamp": "2026-06-19T09:09:35.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-96",
+    "taskCode": "DE-TASK-96",
+    "title": "3kW On-Grid Rooftop - seema nasir",
+    "customerName": "seema nasir",
+    "customerPhone": "+91 7905692860",
+    "customerAddress": "kydganj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7675616367",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:08:25.000Z",
+    "ownerInstructions": "Referred by: ashfak | Stage ID: 157",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T09:08:25.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-96",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: ashfak | Stage ID: 157",
+        "timestamp": "2026-06-19T09:08:25.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-95",
+    "taskCode": "DE-TASK-95",
+    "title": "3kW On-Grid Rooftop - amol",
+    "customerName": "amol",
+    "customerPhone": "+91 9335085216",
+    "customerAddress": "mutthiganj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7795455175",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:06:50.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T09:06:50.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-95",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T09:06:50.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-94",
+    "taskCode": "DE-TASK-94",
+    "title": "5kW On-Grid Rooftop - ravi bahu (ramanand)",
+    "customerName": "ravi bahu (ramanand)",
+    "customerPhone": "+91 9335085216",
+    "customerAddress": "kydganj",
+    "capacityKw": 5,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7522178424",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:04:42.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 162",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-06-19T09:04:42.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-94",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 162",
+        "timestamp": "2026-06-19T09:04:42.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-93",
+    "taskCode": "DE-TASK-93",
+    "title": "4kW On-Grid Rooftop - veenita gupta",
+    "customerName": "veenita gupta",
+    "customerPhone": "+91 7991988202",
+    "customerAddress": "maurabad",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7337405323",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:03:05.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 159",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-06-19T09:03:05.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-93",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 159",
+        "timestamp": "2026-06-19T09:03:05.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-92",
+    "taskCode": "DE-TASK-92",
+    "title": "3kW On-Grid Rooftop - rahul gupta",
+    "customerName": "rahul gupta",
+    "customerPhone": "+91 8303238838",
+    "customerAddress": "naini ada",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7454657487",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-3",
+    "assignedToUserName": "Priya Sharma",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:01:47.000Z",
+    "ownerInstructions": "Referred by: waaree | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T09:01:47.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-92",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: waaree | Stage ID: 156",
+        "timestamp": "2026-06-19T09:01:47.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-91",
+    "taskCode": "DE-TASK-91",
+    "title": "3kW On-Grid Rooftop - bablu bhaiya",
+    "customerName": "bablu bhaiya",
+    "customerPhone": "+91 7985106376",
+    "customerAddress": "bai ka bagh",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7502001047",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T09:00:35.000Z",
+    "ownerInstructions": "Referred by: mustafa | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T09:00:35.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-91",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: mustafa | Stage ID: 156",
+        "timestamp": "2026-06-19T09:00:35.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-90",
+    "taskCode": "DE-TASK-90",
+    "title": "3kW On-Grid Rooftop - sofiyan",
+    "customerName": "sofiyan",
+    "customerPhone": "+91 9792314305",
+    "customerAddress": "katra",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7739202792",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:59:31.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 157",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:59:31.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-90",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 157",
+        "timestamp": "2026-06-19T08:59:31.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-89",
+    "taskCode": "DE-TASK-89",
+    "title": "5kW On-Grid Rooftop - kank lata  (sharad gupta)",
+    "customerName": "kank lata  (sharad gupta)",
+    "customerPhone": "+91 8840693058",
+    "customerAddress": "beniganj",
+    "capacityKw": 5,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7243698827",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:58:26.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 162",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-06-19T08:58:26.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-89",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 162",
+        "timestamp": "2026-06-19T08:58:26.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-88",
+    "taskCode": "DE-TASK-88",
+    "title": "5kW On-Grid Rooftop - sachin sahu",
+    "customerName": "sachin sahu",
+    "customerPhone": "+91 9415351268",
+    "customerAddress": "lukarganj",
+    "capacityKw": 5,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7873597601",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:56:59.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 162",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-06-19T08:56:59.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-88",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 162",
+        "timestamp": "2026-06-19T08:56:59.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-87",
+    "taskCode": "DE-TASK-87",
+    "title": "3kW On-Grid Rooftop - sashi kant tripathi",
+    "customerName": "sashi kant tripathi",
+    "customerPhone": "+91 9415309847",
+    "customerAddress": "Prayagraj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7269787668",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:55:50.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 162",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-06-19T08:55:50.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-87",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 162",
+        "timestamp": "2026-06-19T08:55:50.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-86",
+    "taskCode": "DE-TASK-86",
+    "title": "3kW On-Grid Rooftop - anant patha",
+    "customerName": "anant patha",
+    "customerPhone": "+91 9389423013",
+    "customerAddress": "rajrooppur",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7163590347",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:53:18.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 157",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:53:18.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-86",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 157",
+        "timestamp": "2026-06-19T08:53:18.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-85",
+    "taskCode": "DE-TASK-85",
+    "title": "3kW On-Grid Rooftop - ansh kesarwani",
+    "customerName": "ansh kesarwani",
+    "customerPhone": "+91 8707525715",
+    "customerAddress": "Prayagraj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7559111853",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:47:16.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:47:16.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-85",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T08:47:16.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-84",
+    "taskCode": "DE-TASK-84",
+    "title": "3kW On-Grid Rooftop - chandan tiwari",
+    "customerName": "chandan tiwari",
+    "customerPhone": "+91 8423450375",
+    "customerAddress": "Prayagraj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7268544086",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:45:36.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:45:36.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-84",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T08:45:36.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-83",
+    "taskCode": "DE-TASK-83",
+    "title": "3kW On-Grid Rooftop - ashish sahu",
+    "customerName": "ashish sahu",
+    "customerPhone": "+91 9026861664",
+    "customerAddress": "Prayagraj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7872641040",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:44:02.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:44:02.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-83",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T08:44:02.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-82",
+    "taskCode": "DE-TASK-82",
+    "title": "3kW On-Grid Rooftop - ujjwal gupta",
+    "customerName": "ujjwal gupta",
+    "customerPhone": "+91 6394046139",
+    "customerAddress": "mutthiganj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7200257744",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:42:15.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:42:15.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-82",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T08:42:15.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-81",
+    "taskCode": "DE-TASK-81",
+    "title": "4kW On-Grid Rooftop - ambrish agarwal",
+    "customerName": "ambrish agarwal",
+    "customerPhone": "+91 9936792529",
+    "customerAddress": "baluaghat",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7534587891",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:40:38.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:40:38.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-81",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T08:40:38.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-80",
+    "taskCode": "DE-TASK-80",
+    "title": "3kW On-Grid Rooftop - rajat rj enterprises",
+    "customerName": "rajat rj enterprises",
+    "customerPhone": "+91 8933838363",
+    "customerAddress": "kydganj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7986488168",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:37:57.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:37:57.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-80",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T08:37:57.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-79",
+    "taskCode": "DE-TASK-79",
+    "title": "5kW On-Grid Rooftop - sumat agarwal",
+    "customerName": "sumat agarwal",
+    "customerPhone": "+91 8707553905",
+    "customerAddress": "mirapur",
+    "capacityKw": 5,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7502989025",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:35:58.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 163",
+    "status": "completed",
+    "lastUpdatedAt": "2026-06-19T08:35:58.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-79",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 163",
+        "timestamp": "2026-06-19T08:35:58.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-78",
+    "taskCode": "DE-TASK-78",
+    "title": "4kW On-Grid Rooftop - alok",
+    "customerName": "alok",
+    "customerPhone": "+91 7007719150",
+    "customerAddress": "chauk",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7781232843",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:34:04.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:34:04.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-78",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T08:34:04.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-77",
+    "taskCode": "DE-TASK-77",
+    "title": "3kW On-Grid Rooftop - shailesh yadav",
+    "customerName": "shailesh yadav",
+    "customerPhone": "+91 8131046397",
+    "customerAddress": "muayma",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7440917866",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-3",
+    "assignedToUserName": "Priya Sharma",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:32:29.000Z",
+    "ownerInstructions": "Referred by: waaree | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:32:29.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-77",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: waaree | Stage ID: 156",
+        "timestamp": "2026-06-19T08:32:29.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-76",
+    "taskCode": "DE-TASK-76",
+    "title": "5kW On-Grid Rooftop - amit pandey",
+    "customerName": "amit pandey",
+    "customerPhone": "+91 9415125543",
+    "customerAddress": "kydganj",
+    "capacityKw": 5,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7677578308",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:30:30.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:30:30.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-76",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T08:30:30.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-75",
+    "taskCode": "DE-TASK-75",
+    "title": "3kW On-Grid Rooftop - Bhanu prakash",
+    "customerName": "Bhanu prakash",
+    "customerPhone": "+91 9026794127",
+    "customerAddress": "Kydganj barah khamba",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7408760514",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:27:34.000Z",
+    "ownerInstructions": "15 july followup | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:27:34.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-75",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. 15 july followup | Stage ID: 156",
+        "timestamp": "2026-06-19T08:27:34.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-74",
+    "taskCode": "DE-TASK-74",
+    "title": "3kW On-Grid Rooftop - Saurabh Shukla",
+    "customerName": "Saurabh Shukla",
+    "customerPhone": "+91 7011380147",
+    "customerAddress": "Enquire",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7701724339",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:26:28.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:26:28.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-74",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T08:26:28.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-73",
+    "taskCode": "DE-TASK-73",
+    "title": "3kW On-Grid Rooftop - Rahul kesri",
+    "customerName": "Rahul kesri",
+    "customerPhone": "+91 7459079566",
+    "customerAddress": "Kydganj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7961423508",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:25:31.000Z",
+    "ownerInstructions": "followup 15 july | Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:25:31.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-73",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. followup 15 july | Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T08:25:31.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-72",
+    "taskCode": "DE-TASK-72",
+    "title": "3kW On-Grid Rooftop - Shubhash",
+    "customerName": "Shubhash",
+    "customerPhone": "+91 8084193063",
+    "customerAddress": "kydganj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7457444823",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:24:39.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:24:39.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-72",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T08:24:39.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-71",
+    "taskCode": "DE-TASK-71",
+    "title": "4kW On-Grid Rooftop - Yogesh singh",
+    "customerName": "Yogesh singh",
+    "customerPhone": "+91 8299284055",
+    "customerAddress": "Enquire",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7920996871",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:22:43.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:22:43.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-71",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T08:22:43.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-70",
+    "taskCode": "DE-TASK-70",
+    "title": "3kW On-Grid Rooftop - Md mujid bakat",
+    "customerName": "Md mujid bakat",
+    "customerPhone": "+91 8178036494",
+    "customerAddress": "Jhunsi",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7720851267",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-3",
+    "assignedToUserName": "Priya Sharma",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:21:38.000Z",
+    "ownerInstructions": "August me lagwane ko bole hai | Referred by: waaree | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:21:38.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-70",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. August me lagwane ko bole hai | Referred by: waaree | Stage ID: 156",
+        "timestamp": "2026-06-19T08:21:38.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-69",
+    "taskCode": "DE-TASK-69",
+    "title": "3kW On-Grid Rooftop - sundarlal yadav",
+    "customerName": "sundarlal yadav",
+    "customerPhone": "+91 7355147738",
+    "customerAddress": "Barah Khamba",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7484295771",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:20:42.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 162",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-06-19T08:20:42.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-69",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 162",
+        "timestamp": "2026-06-19T08:20:42.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-68",
+    "taskCode": "DE-TASK-68",
+    "title": "3kW On-Grid Rooftop - govind bhartiya",
+    "customerName": "govind bhartiya",
+    "customerPhone": "+91 9795526336",
+    "customerAddress": "Prayagraj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7885074103",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:18:49.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:18:49.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-68",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T08:18:49.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-67",
+    "taskCode": "DE-TASK-67",
+    "title": "4kW On-Grid Rooftop - amit kesarwani",
+    "customerName": "amit kesarwani",
+    "customerPhone": "+91 9565050609",
+    "customerAddress": "bamrauly",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7705207432",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-3",
+    "assignedToUserName": "Priya Sharma",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:17:36.000Z",
+    "ownerInstructions": "Referred by: waaree | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:17:36.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-67",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: waaree | Stage ID: 156",
+        "timestamp": "2026-06-19T08:17:36.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-66",
+    "taskCode": "DE-TASK-66",
+    "title": "3kW On-Grid Rooftop - manoj pandey",
+    "customerName": "manoj pandey",
+    "customerPhone": "+91 9450615539",
+    "customerAddress": "daragang",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7351748512",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:15:50.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:15:50.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-66",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T08:15:50.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-65",
+    "taskCode": "DE-TASK-65",
+    "title": "3kW On-Grid Rooftop - mansi chaurasia",
+    "customerName": "mansi chaurasia",
+    "customerPhone": "+91 8115250107",
+    "customerAddress": "naini",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7422782149",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-3",
+    "assignedToUserName": "Priya Sharma",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:14:41.000Z",
+    "ownerInstructions": "Referred by: waaree | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:14:41.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-65",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: waaree | Stage ID: 156",
+        "timestamp": "2026-06-19T08:14:41.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-64",
+    "taskCode": "DE-TASK-64",
+    "title": "3kW On-Grid Rooftop - NK",
+    "customerName": "NK",
+    "customerPhone": "+91 9670410005",
+    "customerAddress": "Prayagraj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7256244167",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:13:23.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:13:23.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-64",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T08:13:23.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-63",
+    "taskCode": "DE-TASK-63",
+    "title": "3kW On-Grid Rooftop - ananya singh",
+    "customerName": "ananya singh",
+    "customerPhone": "+91 7376934158",
+    "customerAddress": "Prayagraj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7128176873",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:12:34.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:12:34.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-63",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T08:12:34.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-62",
+    "taskCode": "DE-TASK-62",
+    "title": "3kW Hybrid Solar - yash",
+    "customerName": "yash",
+    "customerPhone": "+91 7678644700",
+    "customerAddress": "ashok nagar",
+    "capacityKw": 3,
+    "systemType": "Hybrid Solar",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7241639953",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:10:34.000Z",
+    "ownerInstructions": "aug me baat krni hai | Referred by: dev | Stage ID: 157",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:10:34.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-62",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. aug me baat krni hai | Referred by: dev | Stage ID: 157",
+        "timestamp": "2026-06-19T08:10:34.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-61",
+    "taskCode": "DE-TASK-61",
+    "title": "4kW On-Grid Rooftop - sarthak jaiswal",
+    "customerName": "sarthak jaiswal",
+    "customerPhone": "+91 9118182787",
+    "customerAddress": "Mutthiganj",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7599674905",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:09:01.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:09:01.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-61",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 156",
+        "timestamp": "2026-06-19T08:09:01.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-60",
+    "taskCode": "DE-TASK-60",
+    "title": "3kW On-Grid Rooftop - sharma sir",
+    "customerName": "sharma sir",
+    "customerPhone": "+91 8005156172",
+    "customerAddress": "Teliyarganj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7112981961",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-3",
+    "assignedToUserName": "Priya Sharma",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:07:39.000Z",
+    "ownerInstructions": "Referred by: waaree | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:07:39.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-60",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: waaree | Stage ID: 156",
+        "timestamp": "2026-06-19T08:07:39.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-59",
+    "taskCode": "DE-TASK-59",
+    "title": "4kW On-Grid Rooftop - lovekush",
+    "customerName": "lovekush",
+    "customerPhone": "+91 9336676863",
+    "customerAddress": "Kydganj",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7338391819",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:06:41.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 157",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:06:41.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-59",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 157",
+        "timestamp": "2026-06-19T08:06:41.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-58",
+    "taskCode": "DE-TASK-58",
+    "title": "4kW On-Grid Rooftop - brijiesh gupta",
+    "customerName": "brijiesh gupta",
+    "customerPhone": "+91 9696478530",
+    "customerAddress": "Naini",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7614628343",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-3",
+    "assignedToUserName": "Priya Sharma",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:05:48.000Z",
+    "ownerInstructions": "Referred by: waaree | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:05:48.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-58",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: waaree | Stage ID: 156",
+        "timestamp": "2026-06-19T08:05:48.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-57",
+    "taskCode": "DE-TASK-57",
+    "title": "4kW On-Grid Rooftop - Shailendra",
+    "customerName": "Shailendra",
+    "customerPhone": "+91 9305807153",
+    "customerAddress": "teliyarganj",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7634366446",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-3",
+    "assignedToUserName": "Priya Sharma",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:05:07.000Z",
+    "ownerInstructions": "waaree | Referred by: waaree | Stage ID: 156",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:05:07.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-57",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. waaree | Referred by: waaree | Stage ID: 156",
+        "timestamp": "2026-06-19T08:05:07.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-56",
+    "taskCode": "DE-TASK-56",
+    "title": "4kW On-Grid Rooftop - Suman shukla",
+    "customerName": "Suman shukla",
+    "customerPhone": "+91 8707386298",
+    "customerAddress": "beniganj",
+    "capacityKw": 4,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "4800",
+    "uppclAccountNo": "7194912446",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:03:25.000Z",
+    "ownerInstructions": "Referred by: dev | Stage ID: 158",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-06-19T08:03:25.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-56",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. Referred by: dev | Stage ID: 158",
+        "timestamp": "2026-06-19T08:03:25.000Z"
+      }
+    ],
+    "dealValueRs": 260000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-55",
+    "taskCode": "DE-TASK-55",
+    "title": "5kW On-Grid Rooftop - Prem Company",
+    "customerName": "Prem Company",
+    "customerPhone": "+91 8090662242",
+    "customerAddress": "Johnstonganj",
+    "capacityKw": 5,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "6000",
+    "uppclAccountNo": "7850654746",
+    "roofType": "RCC Flat Roof",
+    "priority": "High",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T08:01:25.000Z",
+    "ownerInstructions": "Referred by: shubham | Stage ID: 157",
+    "status": "pending verification",
+    "lastUpdatedAt": "2026-06-19T08:01:25.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-55",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "pending verification",
+        "message": "Lead registered from customer file. Referred by: shubham | Stage ID: 157",
+        "timestamp": "2026-06-19T08:01:25.000Z"
+      }
+    ],
+    "dealValueRs": 325000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-54",
+    "taskCode": "DE-TASK-54",
+    "title": "3kW On-Grid Rooftop - Abhishek",
+    "customerName": "Abhishek",
+    "customerPhone": "+91 9839093637",
+    "customerAddress": "Kydganj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7259600757",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T07:57:27.000Z",
+    "ownerInstructions": "emmvee | Referred by: dev | Stage ID: 158",
+    "status": "in progress",
+    "lastUpdatedAt": "2026-06-19T07:57:27.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-54",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "in progress",
+        "message": "Lead registered from customer file. emmvee | Referred by: dev | Stage ID: 158",
+        "timestamp": "2026-06-19T07:57:27.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-53",
+    "taskCode": "DE-TASK-53",
+    "title": "3kW On-Grid Rooftop - Haseena Rehana",
+    "customerName": "Haseena Rehana",
+    "customerPhone": "+91 6394540618",
+    "customerAddress": "Niranjan",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7798593380",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-19T07:56:01.000Z",
+    "ownerInstructions": "Referred by: mustafa | Stage ID: 166",
+    "status": "completed",
+    "lastUpdatedAt": "2026-06-19T07:56:01.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-53",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "completed",
+        "message": "Lead registered from customer file. Referred by: mustafa | Stage ID: 166",
+        "timestamp": "2026-06-19T07:56:01.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-31",
+    "taskCode": "DE-TASK-31",
+    "title": "3kW On-Grid Rooftop - SATISH TIWARI",
+    "customerName": "SATISH TIWARI",
+    "customerPhone": "+91 9936841533",
+    "customerAddress": "JHUSI",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7410324469",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-17T11:00:43.000Z",
+    "ownerInstructions": "Referred by: dev",
+    "status": "not started",
+    "lastUpdatedAt": "2026-06-17T11:00:43.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-31",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. Referred by: dev",
+        "timestamp": "2026-06-17T11:00:43.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  },
+  {
+    "id": "task-cust-28",
+    "taskCode": "DE-TASK-28",
+    "title": "3kW On-Grid Rooftop - manoj kumar singh",
+    "customerName": "manoj kumar singh",
+    "customerPhone": "+91 8115601722",
+    "customerAddress": "kydganj",
+    "capacityKw": 3,
+    "systemType": "On-Grid Rooftop",
+    "monthlyBillRs": "3600",
+    "uppclAccountNo": "7256846645",
+    "roofType": "RCC Flat Roof",
+    "priority": "Normal",
+    "assignedToUserId": "usr-emp-1",
+    "assignedToUserName": "Er. Devashish",
+    "assignedUserIds": [
+      "usr-emp-1",
+      "usr-emp-3",
+      "usr-emp-2"
+    ],
+    "assignedUserNames": [
+      "Er. Devashish",
+      "Priya Sharma",
+      "Amit Patel"
+    ],
+    "assignedBy": "Dilip Enterprises (Owner)",
+    "assignedAt": "2026-06-17T10:56:44.000Z",
+    "ownerInstructions": "Referred by: dev",
+    "status": "not started",
+    "lastUpdatedAt": "2026-06-17T10:56:44.000Z",
+    "lastUpdatedBy": "Dilip Enterprises (Owner)",
+    "templateId": "tmpl-wf-solar-rooftop",
+    "remarksHistory": [
+      {
+        "id": "rem-init-28",
+        "authorId": "usr-owner-1",
+        "authorName": "Dilip Enterprises (Owner)",
+        "authorRole": "owner",
+        "statusChangedTo": "not started",
+        "message": "Lead registered from customer file. Referred by: dev",
+        "timestamp": "2026-06-17T10:56:44.000Z"
+      }
+    ],
+    "dealValueRs": 195000,
+    "isOwnerOverride": false
+  }
+] as CrmTask[];

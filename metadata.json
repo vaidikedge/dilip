@@ -1,0 +1,7 @@
+{
+  "name": "Dilip Enterprises - Solar Solutions",
+  "description": "Official website and solar consultation platform for Dilip Enterprises, leading UPNEDA approved solar panel dealer in Prayagraj, UP.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

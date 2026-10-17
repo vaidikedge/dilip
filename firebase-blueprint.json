@@ -1,0 +1,108 @@
+{
+  "entities": {
+    "leads": {
+      "title": "Solar Leads",
+      "description": "Customer requests for free site survey and solar plant installations",
+      "type": "object",
+      "properties": {
+        "fullName": { "type": "string", "description": "Full name of the customer" },
+        "phone": { "type": "string", "description": "10-digit mobile phone number" },
+        "email": { "type": "string", "description": "Email address of the customer" },
+        "serviceType": { "type": "string", "description": "Type of solar installation requested" },
+        "monthlyBill": { "type": "string", "description": "Current average monthly electricity bill" },
+        "roofType": { "type": "string", "description": "Rooftop type (RCC, Tin shed, etc.)" },
+        "pincode": { "type": "string", "description": "Postal pincode or locality in Prayagraj" },
+        "address": { "type": "string", "description": "Customer complete address or landmark" },
+        "notes": { "type": "string", "description": "Special requirements or remarks" },
+        "uppclAccountNumber": { "type": "string", "description": "10-digit UPPCL Consumer Account ID" },
+        "sanctionedLoadKw": { "type": "string", "description": "Sanctioned connected load in kW" },
+        "billFileName": { "type": "string", "description": "File name of uploaded UPPCL electricity bill" },
+        "billFileType": { "type": "string", "description": "File MIME type" },
+        "billFileSize": { "type": "number", "description": "File size in bytes" },
+        "billFileData": { "type": "string", "description": "Base64 data URI of the bill file" },
+        "status": { "type": "string", "description": "Lead pipeline status: new, contacted, survey_scheduled, completed" },
+        "source": { "type": "string", "description": "Source of submission" },
+        "createdAt": { "type": "string", "description": "ISO timestamp of when the lead was submitted" }
+      },
+      "required": ["fullName", "phone", "createdAt"]
+    },
+    "contact_messages": {
+      "title": "Contact Messages",
+      "description": "General queries and contact form messages",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "description": "Sender name" },
+        "phone": { "type": "string", "description": "Sender phone number" },
+        "email": { "type": "string", "description": "Sender email address" },
+        "subject": { "type": "string", "description": "Subject of the message" },
+        "message": { "type": "string", "description": "Message content" },
+        "status": { "type": "string", "description": "Status: unread, responded" },
+        "createdAt": { "type": "string", "description": "ISO timestamp of submission" }
+      },
+      "required": ["name", "phone", "message", "createdAt"]
+    },
+    "crm_tasks": {
+      "title": "Solar CRM Tasks",
+      "description": "All solar plant project tasks, customer site details, workflow steps and progress",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "taskCode": { "type": "string" },
+        "customerName": { "type": "string" },
+        "customerPhone": { "type": "string" },
+        "status": { "type": "string" },
+        "priority": { "type": "string" },
+        "assignedUserIds": { "type": "string" }
+      },
+      "required": ["id", "title", "customerName", "status"]
+    },
+    "crm_complaints": {
+      "title": "Solar CRM Complaints",
+      "description": "Active maintenance and warranty service tickets",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "ticketNo": { "type": "string" },
+        "customerName": { "type": "string" },
+        "status": { "type": "string" }
+      },
+      "required": ["id", "ticketNo", "customerName", "status"]
+    },
+    "crm_users": {
+      "title": "CRM Users",
+      "description": "Staff users and roles with credentials",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "username": { "type": "string" },
+        "name": { "type": "string" },
+        "role": { "type": "string" }
+      },
+      "required": ["id", "username", "name", "role"]
+    },
+    "crm_messages": {
+      "title": "CRM Messages",
+      "description": "Real-time team chat and site photo messages",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "senderId": { "type": "string" },
+        "receiverId": { "type": "string" },
+        "text": { "type": "string" }
+      },
+      "required": ["id", "senderId", "receiverId"]
+    },
+    "crm_audit_logs": {
+      "title": "CRM Audit Logs",
+      "description": "System event audit trail",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "action": { "type": "string" },
+        "timestamp": { "type": "string" }
+      },
+      "required": ["id", "action", "timestamp"]
+    }
+  }
+}
